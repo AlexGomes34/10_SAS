@@ -5,32 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap" rel="stylesheet">
     <title></title>
 </head>
 <body class="bg-[#222121]">
     <header class="flex text-white  items-center pt-6">
-        <img class="w-26 h-13 pl-10" src="./img/logo.png" alt="LOGO">
-        <div class=" flex pl-80">
-            <menu class="flex flex-row gap-30">
+        <img class="w-26 h-13 pl-10 max-lg:h-25 max-lg:w-40" src="./img/logo.png" alt="LOGO">
+        <div class=" flex pl-100 max-lg:pl-20 ">
+            <menu class="flex flex-row gap-30 max-lg:gap-35 max-lg:text-2xl max-lg:w-130">
                 <li><a href="#AboutUs">About Us</a></li>
                 <li><a href="#Store">Store</a></li>
                 <li><a href="#Contact">Contact</a></li>
                 
             </menu>
         </div>
-        <div class=" flex gap-[30px] pl-[300px]">
+        <div class=" flex gap-[30px] pl-[420px] max-lg:pl-[100px]  ">
             <img class="w-6 h-6" src="./img/search.png" alt="LUPA">
             <img class="w-6 h-6" src="./img/menu.png" alt="MENU">
         </div>
 
     </header>
-    <main class="text-white">
-        <div class="w-80 p-12 pt-25">
-            <h1 class="text-[50px] w-80 font-Delius Unicase">THE HUBLES</h1>
-            <h2 class="text-[125px] w-100">E-BIKE</h2>
-            <h3 class="text-[19px] w-80">Style, Security and safety built for the modern urban riders.</h3>
+    <main class="flex flex-row text-white">
+        <div class="w-80 p-12 pt-25 ">
+            <h1 class="text-[50px] w-80 font-[Delius] text-[#C19932] font-bold ">THE HUBLES</h1>
+            <h2 class="text-[125px] w-100 font-[Roboto] font-semibold ">E-BIKE</h2>
+            <h3 class="text-[20px] w-90 font-[Roboto]">Style, Security and safety built for the modern urban riders.</h3>
+            <div class="pt-7 ">
+                <button class="flex justify-between pl-3 pr-3 pt-1.5 w-55 h-13 rounded-full border-3 border-yellow-600 ">
+                    <h4 class="text-xl font">Order now</h4>
+                    <img src="./img/seta.png" alt="">
+                </button>
+            </div>
         </div>
+        <img class="relative pl-20 w-250 h-140 top-20 pl-1"src="./img/Bike (3).png" alt="BIKE">
+        <img class="pl-18 h-100 pt-80" src="./img/bolinha.png" alt="">
     </main>
+    <footer class="justify-items-center pl-105 pt-10 w-250 ">
+        <img class="z-0 relative top-[50px] left-[830px] h-25" src="./img/Bola Amarela.png" alt="">
+        <button class="relative z-10 backdrop-blur-xs flex pl-17 pr-10 pt-7 w-220 h-30 rounded-4xl border-3 border-gray-400 text-2xl gap-35 font-semibold z-2">
+            <h5 class="text-white">1000W <span class="text-gray-400 text-lg">Motor</span></h5>
+            <h5 class="text-white">5 Hours <span class="text-gray-400 text-sm">Charging Time</span></h5>
+            <h5 class="text-white">75mph <span class="text-gray-400 text-lg">Top Speed</span></h5>
+            <h5 class="text-white">90V <span class="text-gray-400 text-lg">Battery</span></h5>
+        </button>
+        <img class="z-0 relative bottom-[60px] right-[35px] h-19" src="./img/Bola Amarela.png" alt="">
+
+    </footer>
 </body>
 </html>
