@@ -17,5 +17,8 @@ Funcionando para os dispositivos DESKTOP, TABLET E CELULAR
 * Tailwind CSS
 * Git
 
+## Figma Protótipo
+[](https://www.figma.com/proto/p5RftXMxDlP33JDldGKCrp/Lima-Atividade-e-bike--Copy-?node-id=0-1&t=ARecHS9GK8r116bV-1)
+
 ## Autor
 [Alex Gomes](https://github.com/AlexGomes34)
