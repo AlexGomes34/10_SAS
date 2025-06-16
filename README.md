@@ -1,13 +1,13 @@
 # Scooter
 
 ## Desktop
-![](./img/Captura%20de%20tela%202025-06-10%20161406.png)
+![](./img/Captura%20de%20Tela%202025-06-16%20%C3%A0s%2016.02.32.png)
 
 ## Tablet
-![](./img/Captura%20de%20tela%202025-06-10%20161521.png)
+![](./img/Captura%20de%20Tela%202025-06-16%20%C3%A0s%2016.02.05.png)
 
 ## Celular
-![](./img/Captura%20de%20tela%202025-06-10%20161626.png)
+![](./img/Captura%20de%20Tela%202025-06-16%20%C3%A0s%2016.03.11.png)
 
 Website criado para treino com o Tailwind CSS, utilizando apenas as ferramentas do Tailwind, sem o uso do CSS tradicional.
 Funcionando para os dispositivos DESKTOP, TABLET E CELULAR
